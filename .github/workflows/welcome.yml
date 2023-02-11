@@ -1,0 +1,4 @@
+name: gh actions refresher
+on: 
+  pull_request:
+    types: [opened]
