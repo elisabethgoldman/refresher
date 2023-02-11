@@ -2,3 +2,7 @@ name: gh actions refresher
 on: 
   pull_request:
     types: [opened]
+jobs:
+  build: 
+    name: gh actions refresher
+    runs-on: ubuntu-latest
